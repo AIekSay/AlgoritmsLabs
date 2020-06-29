@@ -1,0 +1,55 @@
+0 a a r 0
+0 b b r 0
+0 c c r 0
+0 d d r 0
+0 _ e l 1
+
+1 a a l 1
+1 b b l 1
+1 c c l 1
+1 d d l 1 
+1 e e l 1
+1 s s l 1
+1 _ _ r 2
+
+2 a _ r 3
+2 b _ r 6
+2 c _ r 4
+2 d _ r 5
+2 e _ * halt
+2 _ e * 2
+
+3 a a r 3
+3 b b r 3
+3 c c r 3
+3 d d r 3
+3 e e r 3
+3 s s r 3
+3 _ a l 1
+
+4 a a r 4
+4 b b r 4
+4 c c r 4
+4 d d r 4
+4 e e r 4
+4 s s r 4
+4 _ c l 1
+
+5 a a r 5
+5 b b r 5
+5 c c r 5
+5 d d r 5
+5 e e r 5
+5 s s r 5
+5 _ d l 1
+
+6 a a r 6
+6 b b r 6
+6 c c r 6
+6 d d r 6
+6 e e r 6
+6 s s r 6
+6 _ s r 7
+
+7 _ b l 1
+
